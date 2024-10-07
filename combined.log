@@ -1,0 +1,19 @@
+2024-10-06 21:00:33 [info]: Information message
+2024-10-06 21:00:33 [warn]: Warning message
+2024-10-06 21:00:33 [error]: Error message
+2024-10-06 21:01:07 [info]: Information message
+2024-10-06 21:01:07 [warn]: Warning message
+2024-10-06 21:01:07 [error]: Error message
+2024-10-06 21:01:07 [info]: {
+  "name": "John Doe",
+  "age": 30,
+  "city": "New York"
+}
+[info]: Information message
+[warn]: Warning message
+[error]: Error message
+[info]: {
+  "name": "John Doe",
+  "age": 30,
+  "city": "New York"
+}
