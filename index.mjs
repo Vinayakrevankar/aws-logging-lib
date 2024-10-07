@@ -11,4 +11,7 @@ logBuilder
 // Example usage for error logging
 logBuilder
   .withMessage("Operation failed")
-  .withData({ userId: 123, error: "Invalid input" }).buildErrorLogEntry(); // Log at error level
+  .withData({ userId: 123, error: "Invalid input" }).buildError(); // Log at error level
+
+
+logBuilder.withMessage("Error occurred while processing data").buildError(new Error("Data processing failed due to invalid input"));
